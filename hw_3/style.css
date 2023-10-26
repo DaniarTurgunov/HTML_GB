@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    padding-top: 40px;
+}
+
+.top__contnt {
+    margin-top: 149px;
+    margin-bottom: 15px;
+}
+
+.title {
+    margin-top: 74px;
+    margin-bottom: 240px;
+    font-family: Gilroy-Bold;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.top__buttons {
+    padding-top: 37px;
+    padding-bottom: 23px;
+}
+
+.top__logos {
+    margin-top: 97px;
+    margin-bottom: 96px;
+}
