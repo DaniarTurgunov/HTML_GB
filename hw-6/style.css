@@ -1,0 +1,225 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    .container {
+        margin: 0 auto;
+        min-width: 1024px;
+    }
+    
+    .header-nav {
+        background-color: #222222;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .header-logo {
+        margin-top: 18px;
+        margin-bottom: 19px;
+        /* margin-left: 220px; */
+        margin-right: 41px;
+    }
+    
+    .headerimgsearch {
+        margin-top: 28px;
+        margin-bottom: 20px;
+        margin-right: 859px;
+    }
+    
+    .headerimg {
+        margin-top: 26px;
+        margin-bottom: 21px;
+        margin-right: 33px;
+    }
+    
+    .flex {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .top {
+        background-color: #F1E4E6;
+    }
+    
+    .brand {
+        color: #222;
+        font-family: 'Lato';
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+    }
+    
+    .lux {
+        color: #222;
+        font-family: 'Lato';
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    
+    .fashion {
+        color: #F16D7F;
+        font-family: 'Lato';
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    
+    .top-image-right {
+        margin-top: 291px;
+        margin-right: 16px;
+        float: left;
+    }
+    
+    .title-top {
+        margin-top: 290px;
+    }
+    
+    .top {
+        margin-bottom: 65px;
+    }
+    
+    .top-left {
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    .top-right,
+    .top-left {
+        width: 50%;
+    }
+    
+    .deals-containers {
+        display: grid;
+        gap: 30px;
+        grid-template-columns: repeat(3, 360px);
+        justify-content: center;
+        margin-bottom: 96px;
+    }
+    
+    .deals-img {
+        width: 100%;
+        fill: rgba(33, 22, 22, 0.70);
+    }
+    
+    .deals {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #211616B2;
+    }
+    
+    .deals-title {
+        margin: 105px;
+        color: #F16D7F;
+        font-family: 'Lato';
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        position: absolute;
+        text-align: center;
+    }
+    
+    .procent {
+        color: #FFF;
+        text-align: center;
+        font-family: 'Lato';
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    
+    .big {
+        display: grid;
+        grid-column: span 3;
+        justify-items: center
+    }
+    
+    .market {
+        display: grid;
+        gap: 30px;
+        grid-template-columns: repeat(3, 360px);
+        justify-content: center;
+        margin-bottom: 48px;
+    }
+    
+    .market-title {
+        margin-bottom: 6px;
+        color: #222;
+        font-family: 'Lato';
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    
+    .text-title {
+        color: #9F9F9F;
+        font-family: 'Lato';
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-bottom: 48px;
+    }
+    
+    .container-title-market {
+        display: grid;
+        justify-content: center;
+        justify-items: center
+    }
+    
+    .card-name {
+        color: #000;
+        font-family: 'Lato';
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 24px 16px 0 16px;
+    }
+    
+    .card-txt {
+        color: #5D5D5D;
+        font-family: 'Lato';
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        margin: 16px 16px;
+    }
+    
+    .card-price {
+        color: #F16D7F;
+        font-family: 'Lato';
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0 16px 24px 16px
+    }
+    
+    .buttons {
+        color: #F26376;
+        font-family: 'Lato';
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-decoration: none;
+        padding: 15px 39px;
+        border: solid;
+        margin-bottom: 60px;
+    }
+    
+    .butt {
+        display: flex;
+        justify-content: center;
+    }
